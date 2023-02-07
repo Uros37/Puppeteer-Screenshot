@@ -1,0 +1,26 @@
+{
+  "name": "puppeteerscreenshot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uros37/Puppeteer-Screenshot.git"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "histyle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uros37/Puppeteer-Screenshot/issues"
+  },
+  "homepage": "https://github.com/Uros37/Puppeteer-Screenshot#readme",
+  "dependencies": {
+    "puppeteer": "^19.6.3"
+  }
+}
