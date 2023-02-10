@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Uros37/Puppeteer-Screenshot#readme",
   "dependencies": {
-    "puppeteer": "^19.6.3"
+    "puppeteer": "^19.6.3",
+    "puppeteer-screen-recorder": "^2.1.2"
   }
 }
