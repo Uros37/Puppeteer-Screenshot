@@ -28,14 +28,21 @@ const { PuppeteerScreenRecorder } = require('puppeteer-screen-recorder');
     path: 'screenshot.jpg',
   });
 
+  const pdf = await page.pdf({
+    path: 'result.pdf',
+    margin: { top: '100px', right: '50px', bottom: '100px', left: '50px' },
+    printBackground: false,
+    format: 'A4',
+  });
+
   const Config = {
     followNewTab: true,
     fps: 60,
     frames: 60 * 5, // 5 seconds at 60 fps
     ffmpeg_Path: null,
     videoFrame: {
-      width: 1024,
-      height: 768,
+      width: 800,
+      height: 470,
     },
     videoCrf: 18,
     videoCodec: 'libx264',
